@@ -207,7 +207,7 @@ kothai vul hoise jar karone likha center e astase na */
     position: absolute;
     left: 0;
     bottom: 0;
-    /* overflow: hidden; */
+    overflow: hidden;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -267,7 +267,7 @@ height: 100%;
 }
 .contact-left p{
     margin-top: 30px;
-    text-align: center;
+    /* text-align: center; */
     padding: 040px;
 }
 .contact-left p i{
