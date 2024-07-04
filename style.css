@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 body{
@@ -190,8 +191,9 @@ margin: 10px 0;
 }
 .work img{
     width: 100%;
+    vertical-align: middle;
     border-radius: 10px;
-    display: block;
+    /* display: block; */
     transition: transfrom 0.5s;
 }
 
@@ -205,7 +207,7 @@ kothai vul hoise jar karone likha center e astase na */
     position: absolute;
     left: 0;
     bottom: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     display:flex;
     align-items: center;
     justify-content: center;
@@ -219,11 +221,12 @@ kothai vul hoise jar karone likha center e astase na */
 }
 .layer h3{
     font-weight: 500;
+    text-align: center;
     margin-bottom: 20px;
 
 }
 .layer a{
-    margin-top: 20px;
+    margin: 20px auto 0;
     color: #ff004f;
     text-decoration: none;
     font-size: 18px;
@@ -263,7 +266,9 @@ height: 100%;
     flex-basis: 60%;
 }
 .contact-left p{
-    margin-top: 30px
+    margin-top: 30px;
+    text-align: center;
+    padding: 040px;
 }
 .contact-left p i{
     color: #ff004f;
